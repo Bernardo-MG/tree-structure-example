@@ -32,18 +32,18 @@ public final class NodeWrapper implements Node {
     /**
      * Wrapped expression.
      */
-    private final Node wrappedExpression;
+    private final Node wrappedNode;
 
     /**
      * Constructs a wrapper for the received expression.
      * 
-     * @param exp
+     * @param node
      *            the expression to wrap
      */
-    public NodeWrapper(final Node exp) {
+    public NodeWrapper(final Node node) {
         super();
 
-        wrappedExpression = checkNotNull(exp,
+        wrappedNode = checkNotNull(node,
                 "Received a null pointer as expression");
     }
 
@@ -53,7 +53,12 @@ public final class NodeWrapper implements Node {
      * @return the wrapped expression
      */
     public final Node getWrappedNode() {
-        return wrappedExpression;
+        return wrappedNode;
+    }
+
+    @Override
+    public final String getText() {
+        return wrappedNode.getText();
     }
 
 }

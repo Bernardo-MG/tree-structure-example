@@ -1,16 +1,6 @@
 # Tree Structure Example
 
-This is a basic Maven-based Java project created with the use of the [Library Maven Archetype](https://github.com/Bernardo-MG/library-maven-archetype). It will ease the development of new libraries, setting it up for CI through the use of three free services: [Github](https://github.com/), [Travis](https://travis-ci.org) and [Bintray](https://bintray.com/).
-
-Before beginning with the new project there are a few things which should be edited:
-
-- This readme's description has to be adapted to the new project.
-- Project info on the POM should be checked.
-- The various links on the readme, POM and Maven site (for repositories, issues, etc) should be verified.
-- The documentation on the project's [Maven Site](https://maven.apache.org/plugins/maven-site-plugin/) has to be written.
-- The license, if not using the MIT one, should be changed. Remember that this is referenced on the POM, readme and LICENSE files.
-
-Note that the Maven site is using the [Docs Maven Skin](https://github.com/Bernardo-MG/docs-maven-skin), which will have a few configuration requirements of its own.
+An example for working with tree structures.
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.example/tree-structure-example.svg)][maven-repo]
 [![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/tree-structure-example/images/download.svg)][bintray-repo]
@@ -23,13 +13,7 @@ Note that the Maven site is using the [Docs Maven Skin](https://github.com/Berna
 
 ## Features
 
-The project by default comes with a useful series of features:
-
-- Preconfigured POM to begin developing a new library fast.
-- Prepared for [Travis CI](https://travis-ci.org/), including configuration files and deployment scripts. Check the [Archetype documentation](http://docs.bernardomg.com/maven/library-maven-archetype) to find out more.
-- Unit and integration tests suites ready to be run with [JUnit](http://junit.org) just by using the Maven test and verify commands.
-- A Maven site, using the [Docs Maven Skin](https://github.com/Bernardo-MG/docs-maven-skin), to contain the documentation, the Javadocs and several reports.
-- A bunch of useful files, such as readme, gitignore and gitattributes.
+- Traversing trees (preorder, inorder, postorder)
 
 ## Documentation
 

@@ -24,5 +24,5 @@
 /**
  * Provides placeholder classes.
  */
-package com.bernardomg.example.tree_structure_example;
+package com.bernardomg.example.tree.model;
 

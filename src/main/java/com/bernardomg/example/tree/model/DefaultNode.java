@@ -19,9 +19,9 @@ package com.bernardomg.example.tree.model;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
- * Default implementation of
+ * Default node.
  * 
- * @author Bernardo
+ * @author Bernardo Mart&iacute;nez Garrido
  *
  */
 public final class DefaultNode implements Node {

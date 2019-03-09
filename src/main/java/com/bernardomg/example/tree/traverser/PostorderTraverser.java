@@ -83,6 +83,13 @@ public final class PostorderTraverser implements Traverser {
         return exps.stream().map(this::unwrap).collect(Collectors.toList());
     }
 
+    /**
+     * Removes the expression wrappers used to temporally prune the nodes.
+     * 
+     * @param expression
+     *            node to unwrap
+     * @return unwrapped node
+     */
     private final Node unwrap(final Node expression) {
         final Node result;
 

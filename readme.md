@@ -2,9 +2,6 @@
 
 An example for working with tree structures.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.example/tree-structure-example.svg)][maven-repo]
-[![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/tree-structure-example/images/download.svg)][bintray-repo]
-
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
 [![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
 
@@ -50,16 +47,6 @@ The project has been tested on the following Java versions:
 
 All other dependencies are handled through Maven, and noted in the included POM file.
 
-### Installing
-
-The recommended way to install the project is by setting it up as a dependency. To get the configuration information for this check the [Bintray repository][bintray-repo], or the [Maven Central Repository][maven-repo].
-
-It is always possible installing it by using the usual Maven command:
-
-```
-$ mvn install
-```
-
 ## Collaborate
 
 Any kind of help with the project will be well received, and there are two main ways to give such help:
@@ -79,8 +66,6 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 
 The project has been released under the [MIT License][license].
 
-[bintray-repo]: https://bintray.com/bernardo-mg/maven/tree-structure-example/view
-[maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.example/tree-structure-example
 [issues]: https://github.com/bernardo-mg/tree-structure-example/issues
 [javadoc-develop]: http://docs.bernardomg.com/development/maven/tree-structure-example//tree-structure-example/apidocs
 [javadoc-release]: http://docs.bernardomg.com/maven/tree-structure-example//tree-structure-example/apidocs

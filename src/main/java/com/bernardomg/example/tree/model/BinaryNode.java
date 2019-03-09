@@ -16,10 +16,26 @@
 
 package com.bernardomg.example.tree.model;
 
+/**
+ * Binary node, which is contected to two nodes.
+ * 
+ * @author Bernardo Mart&iacute;nez Garrido
+ *
+ */
 public interface BinaryNode extends Node {
 
+    /**
+     * Returns the left sided node.
+     * 
+     * @return the left sided node
+     */
     public Node getLeft();
 
+    /**
+     * Returns the right sided node.
+     * 
+     * @return the right sided node
+     */
     public Node getRight();
 
 }

@@ -18,10 +18,25 @@ package com.bernardomg.example.tree.model;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
+/**
+ * Default implementation of
+ * 
+ * @author Bernardo
+ *
+ */
 public final class DefaultNode implements Node {
 
+    /**
+     * Node text.
+     */
     private final String text;
 
+    /**
+     * Construct a node.
+     * 
+     * @param t
+     *            node text
+     */
     public DefaultNode(final String t) {
         super();
 

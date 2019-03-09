@@ -18,14 +18,39 @@ package com.bernardomg.example.tree.model;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
+/**
+ * Default binary node.
+ * 
+ * @author Bernardo Mart&iacute;nez Garrido
+ *
+ */
 public final class DefaultBinaryNode implements BinaryNode {
 
+    /**
+     * Left node.
+     */
     private final Node   left;
 
+    /**
+     * Right node.
+     */
     private final Node   right;
 
+    /**
+     * Text for the node.
+     */
     private final String text;
 
+    /**
+     * Constructs a binary node.
+     * 
+     * @param l
+     *            left node
+     * @param r
+     *            right node
+     * @param t
+     *            node text
+     */
     public DefaultBinaryNode(final Node l, final Node r, final String t) {
         super();
 

@@ -16,8 +16,19 @@
 
 package com.bernardomg.example.tree.model;
 
+/**
+ * Node.
+ * 
+ * @author Bernardo Mart&iacute;nez Garrido
+ *
+ */
 public interface Node {
 
+    /**
+     * Returns the node text.
+     * 
+     * @return the node text
+     */
     public String getText();
 
 }

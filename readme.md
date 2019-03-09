@@ -67,9 +67,9 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 The project has been released under the [MIT License][license].
 
 [issues]: https://github.com/bernardo-mg/tree-structure-example/issues
-[javadoc-develop]: http://docs.bernardomg.com/development/maven/tree-structure-example//tree-structure-example/apidocs
-[javadoc-release]: http://docs.bernardomg.com/maven/tree-structure-example//tree-structure-example/apidocs
+[javadoc-develop]: http://docs.bernardomg.com/development/maven/tree-structure-example/apidocs
+[javadoc-release]: http://docs.bernardomg.com/maven/tree-structure-example/apidocs
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/tree-structure-example
-[site-develop]: http://docs.bernardomg.com/development/maven/tree-structure-example//tree-structure-example
-[site-release]: http://docs.bernardomg.com/maven/tree-structure-example//tree-structure-example
+[site-develop]: http://docs.bernardomg.com/development/maven/tree-structure-example
+[site-release]: http://docs.bernardomg.com/maven/tree-structure-example

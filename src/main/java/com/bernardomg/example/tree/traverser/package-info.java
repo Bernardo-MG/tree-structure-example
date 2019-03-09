@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 /**
- * Model which allows building a tree structure.
+ * Classes to traverse trees.
  */
 
-package com.bernardomg.example.tree.model;
+package com.bernardomg.example.tree.traverser;

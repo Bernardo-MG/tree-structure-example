@@ -18,8 +18,23 @@ package com.bernardomg.example.tree.traverser;
 
 import com.bernardomg.example.tree.model.Node;
 
-public interface Interpreter<V> {
+/**
+ * Traverses a tree node and returns the nodes in the order it went through
+ * them.
+ * 
+ * @author Bernardo Mart&iacute;nez Garrido
+ *
+ */
+public interface Traverser {
 
-    public V transform(final Node root);
+    /**
+     * Goes through the tree and returns the nodes in the order they were
+     * visited.
+     * 
+     * @param root
+     *            tree root node
+     * @return the nodes in the order they were visited
+     */
+    public Iterable<Node> traverse(final Node root);
 
 }

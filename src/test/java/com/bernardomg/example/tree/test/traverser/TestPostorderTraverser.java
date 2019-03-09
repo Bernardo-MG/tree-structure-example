@@ -72,7 +72,7 @@ public final class TestPostorderTraverser {
         subtraction = new DefaultBinaryNode(addition, rightSecond, "-");
 
         // 1 2 + 3 -
-        result = new PostorderTraverser().transform(subtraction);
+        result = new PostorderTraverser().traverse(subtraction);
 
         Assertions.assertEquals(5, Iterables.size(result));
 

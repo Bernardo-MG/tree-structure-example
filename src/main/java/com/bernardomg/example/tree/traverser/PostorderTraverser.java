@@ -38,7 +38,7 @@ import com.bernardomg.example.tree.model.Node;
  * @author Bernardo Mart&iacute;nez Garrido
  *
  */
-public final class PostorderTraverser implements Interpreter<Iterable<Node>> {
+public final class PostorderTraverser implements Traverser {
 
     /**
      * Logger.
@@ -54,7 +54,7 @@ public final class PostorderTraverser implements Interpreter<Iterable<Node>> {
     }
 
     @Override
-    public final Iterable<Node> transform(final Node expression) {
+    public final Iterable<Node> traverse(final Node expression) {
         final Stack<Node> nodes;
         final Collection<Node> exps;
         Node current;

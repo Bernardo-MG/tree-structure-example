@@ -72,7 +72,7 @@ public final class TestPreorderTraverser {
         subtraction = new DefaultBinaryNode(addition, rightSecond, "-");
 
         // - + 1 2 3
-        result = new PreorderTraverser().transform(subtraction);
+        result = new PreorderTraverser().traverse(subtraction);
 
         Assertions.assertEquals(5, Iterables.size(result));
 

@@ -1,6 +1,6 @@
 # Tree Structure Example
 
-An example for working with tree structures.
+Iterating tree structures in Java. Makes use of a small model for binary trees, and traverses it in preorder, inorder and postorder.
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
 [![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
